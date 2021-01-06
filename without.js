@@ -23,6 +23,7 @@ const assertArraysEqual = function(arr1, arr2) {
   }
   console.log(msg);
 };
+
 assertArraysEqual(without([1,2,3],[4]), [1,2,3]);
 assertArraysEqual(without([1,2,3],[2]), [1,3]);
 assertArraysEqual(without([1,2,3],[2,5,3]), [1]);
