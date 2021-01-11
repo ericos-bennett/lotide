@@ -1,8 +1,6 @@
 const assert = require('chai').assert;
 const middle = require('../src/middle');
 
-console.log(middle.toString);
-
 describe('#middle', () => {
 
   it('returns [2,4] for middle[1,2,4,5]', () => {
