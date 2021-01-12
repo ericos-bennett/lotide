@@ -1,8 +1,6 @@
-// FUNCTION IMPLEMENTATION
-
-const flatten = function(array) {
+const flatten = function(arr) {
   let flatArray = [];
-  for (let el of array) {
+  for (let el of arr) {
     if (!Array.isArray(el)) {
       flatArray.push(el);
     } else {
@@ -14,20 +12,4 @@ const flatten = function(array) {
   return flatArray;
 };
 
-// TEST CODE
-
-const assertArraysEqual = function(arr1, arr2) {
-  let msg = '✅✅✅ These arrays are identical!';
-  
-  if (arr1.length !== arr2.length) {
-    msg = '🛑🛑🛑 These arrays are not identical.';
-  }
-  for (let i = 0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i]) {
-      msg = '🛑🛑🛑 These arrays are not identical.';
-    }
-  }
-  console.log(msg);
-};
-
-assertArraysEqual(flatten([4, 64, [2, 75], 3, []]), [4, 64, 2, 75, 3]);
+module.exports = flatten;

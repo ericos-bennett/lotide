@@ -1,10 +1,11 @@
 {
-  "name": "lotide",
+  "name": "@ericos.bennett/lotide",
   "version": "1.0.0",
-  "description": "Lotide Modules for LHL Project 1!",
-  "main": "assertEqual.js",
+  "description": "Lotide (Lodash) Modules for LHL!",
+  "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "test",
+    "src": "src"
   },
   "scripts": {
     "test": "mocha"
@@ -14,7 +15,7 @@
     "url": "git+https://github.com/ericos-bennett/lotide.git"
   },
   "keywords": [
-    "lotide"
+    "lotide, lhl"
   ],
   "author": "Eric Bennett",
   "license": "ISC",
