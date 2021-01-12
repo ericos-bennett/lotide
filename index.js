@@ -1,4 +1,3 @@
-// index.js
 const assertArraysEqual = require('./src/assertArraysEqual');
 const assertEqual = require('./src/assertEqual');
 const assertObjectsEqual = require('./src/assertObjectsEqual');
