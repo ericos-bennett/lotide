@@ -33,6 +33,7 @@ The following functions are currently implemented:
 * `countOnly(allItems, itemsToCount)`: Returns an object with the counts in the allItems array of each item with a true value in the itemsToCount array.
 * `eqArrays(arr1, arr2)`: Returns true if each item in arr1 has strict equality with the corresponding index in arr2 and false otherwise. Will always return false if either array contains nested reference data types.
 * `eqObjects(object1, object2)`: Returns true if each property in object1 has strict equality with the corresponding property in object2 and false otherwise. Will always return false if either object contains nested reference data types.
+* `eqObjRec(item1, item2)`: Returns true if items are deeply equal (recursively evaluates through arrays + objects).
 * `findKey(object, callback)`: Returns the first object key whose value satisfies the callback function criteria.
 * `findKeyByValue(object, value)`: Returns the first obkect key whose value strictly equals the value arg.
 * `flatten(arr)`: Flattens an array of arrays into a single-level array. Doesn't work if there is more than two levels of depth in the input array.
